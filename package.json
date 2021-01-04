@@ -1,7 +1,7 @@
 {
   "name": "@adaptcharm/render-live-reload",
   "description": "Renders & serves a website with live reload.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "name": "Jamie Isaksen",
     "email": "jamie@jamie.no"
@@ -30,7 +30,6 @@
     "ejs": "^3.1.5",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
-    "got": "^9.6.0",
     "handlebars": "^4.7.6",
     "html-minifier": "^4.0.0",
     "imagemin": "^7.0.1",
@@ -39,21 +38,15 @@
     "imagemin-pngquant": "^9.0.0",
     "imagemin-svgo": "^8.0.0",
     "imagemin-webp": "^6.0.0",
-    "libphonenumber-js": "^1.9.6",
     "lost": "^8.3.1",
-    "md5": "^2.3.0",
     "mime": "^2.4.6",
-    "moment": "^2.29.1",
     "node-watch": "^0.6.4",
     "path": "^0.12.7",
     "postcss": "^8.2.1",
     "postcss-calc": "^7.0.2",
     "postcss-combine-duplicated-selectors": "^9.0.0",
-    "postcss-import": "^14.0.0",
-    "render": "^0.1.4",
     "sass": "^1.26.10",
     "socket.io": "^2.3.0",
-    "terser": "^4.8.0",
-    "ua-parser-js": "^0.7.23"
+    "terser": "^4.8.0"
   }
 }

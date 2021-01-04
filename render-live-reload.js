@@ -298,7 +298,6 @@ async function convert(path, content) {
 Minifies an asset.
 */
 async function minify(content, type) {
-  var start = new Date()
   if(type == "text/html") {
     content = htmlMinifier(String(content), {collapseWhitespace: true, minifyCSS: true, minifyJS: function(content) { var min = terser.minify(content); if(!min.error) { return min.code } }, removeComments: true, removeRedundantAttributes: true})
   }
