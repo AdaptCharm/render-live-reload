@@ -221,13 +221,13 @@ function watch(directory, assets, options = {}) {
       for(var name in newAssets) { assets[name] = newAssets[name] }
 
       //Notify.
-      console.log(chalk.bold.blue("@innov/render:"), chalk.yellow("Updated /" + pathLib.relative(directory, file)))
+      console.log(chalk.bold.blue("@adaptcharm/render:"), chalk.yellow("Updated /" + pathLib.relative(directory, file)))
       server.sockets.emit("changed")
     }
     catch (e) { console.error(e) }
   })
 
-  console.log(chalk.bold.blue("@innov/render:"), chalk.green("Started watching " + pathLib.basename(directory)))
+  console.log(chalk.bold.blue("@adaptcharm/render:"), chalk.green("Started watching " + pathLib.basename(directory)))
 }
 
 
