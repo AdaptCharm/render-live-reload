@@ -2,6 +2,37 @@
 Renders templates & assets for web or email usage.
 + Polyfills JS.
 + Converts JSX HTML to Aviation.element function.
+
+
+Packages required:
++ fs (inbuilt)
++ glob
++ path (inbuilt)
++ mime
++ ejs
++ handlebars
++ @babel/core
++ @babel/preset-env
++ @babel/preset-react
++ sass
++ postcss
++ postcss-combine-duplicated-selectors
++ postcss-calc
++ lost
++ autoprefixer
++ cssnano
++ html-minifier
++ terser
++ imagemin
++ imagemin-pngquant
++ imagemin-mozjpeg
++ imagemin-webp
++ imagemin-svgo
++ imagemin-gifsicle
++ socket.io
++ node-watch
++ chalk
+
 */
 
 
@@ -30,7 +61,6 @@ const imageminPlugins = {
   "image/svg+xml": require("imagemin-svgo")(),
   "image/gif": require("imagemin-gifsicle")({optimizationLevel: 3})
 }
-
 
 const io = require("socket.io")
 const nodeWatch = require("node-watch")
