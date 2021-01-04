@@ -7,7 +7,7 @@
     "email": "jamie@jamie.no"
   },
   "license": "UNLICENSED",
-  "main": "render.js",
+  "main": "render-live-reload.js",
   "engines": {
     "node": ">=8"
   },
