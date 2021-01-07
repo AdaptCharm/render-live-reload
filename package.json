@@ -1,7 +1,7 @@
 {
   "name": "@adaptcharm/render-live-reload",
   "description": "Renders & serves a website with live reload.",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "author": {
     "name": "Jamie Isaksen",
     "email": "jamie@jamie.no"
